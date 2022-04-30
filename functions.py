@@ -17,7 +17,6 @@ def mod_power(a, b, c):
     return x % c
 
 
-
 def prime(a, b):
     
     p = random.randint(a, b)
@@ -28,7 +27,6 @@ def prime(a, b):
     return p
   
 
-  
 def generator_alpha(p):
     
     while True:
