@@ -27,7 +27,7 @@ def prime(a, b):
     return p
   
 
-def generator_alpha(p):
+def alpha_generator(p):
     
     while True:
         alpha = random.randint(2, p-1)
