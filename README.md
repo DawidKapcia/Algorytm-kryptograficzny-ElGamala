@@ -1,2 +1,3 @@
-# Algorytm-kryptograficzny-ElGamala
-Implementacja algorytmu kryptograficznego ElGamala w języku Python.
+# ElGamal Encryption Algorithm
+
+Implementation of ElGamal Encryption Algorithm in Python.
