@@ -13,4 +13,4 @@ The implementation was created in Python programming language. At the begining I
 
 Afterwards it was possible to build key generator, encryption and decryption functions. The algorithm does not include the coversion method so in conclusion the program requires to enter an integer representation of our messege. There are many ways to solve this problem, for example with the use of ASCII system. In my implementation I decided to leave this issue open.
 
-To start the program we have to enter the interval of a prime number and an integer representation of the messege.
+To start the program we have to enter the interval of a prime number and an integer representation of the messege. 
