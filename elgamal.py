@@ -1,6 +1,6 @@
 def key():
     
-    p = prime(pocz, kon)
+    p = prime(a, b)
     alpha = generator_alpha(p)
     a = random.randint(1, p-2)
     
@@ -31,10 +31,10 @@ def ElGamal(m, a, b):
     
     sep = 60 * "-"
     
-    print("%s\nInput messege:\t%s\n%s" % (sep, m, sep))
+    print("%s\nInput message:\t%s\n%s" % (sep, m, sep))
     
     p, alpha, a_alpha, a = key()
-    print("\nPublic key:\n\np = %s\nalpha = %s\na_alpha = %s\na = %s\n\n%s" % (p, alpha, a_alpha, sep))
+    print("\nPublic key:\n\np = %s\nalpha = %s\na_alpha = %s\n%s" % (p, alpha, a_alpha, sep))
     
     gamma, delta = encryption(m, p, alpha, a_alpha)
     print("\nEncrypted message:\n\n(%s, %s)\n\n%s" % (gamma, delta, sep))
