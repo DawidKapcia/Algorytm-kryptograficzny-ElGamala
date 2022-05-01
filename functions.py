@@ -1,6 +1,3 @@
-import random
-import sympy
-
 def mod_power(a, b, c):
     
     x = 1
