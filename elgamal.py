@@ -1,3 +1,6 @@
+import random
+import sympy
+
 def key():
     
     p = prime(a, b)
